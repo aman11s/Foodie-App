@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: azure;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.dish {
+  margin: 1rem;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px #2b5757;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+/* footer {
+  text-align: right;
+  margin-right: 3rem;
+} */
