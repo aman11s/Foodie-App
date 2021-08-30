@@ -10,8 +10,16 @@ body {
 .btn {
   margin: 1rem;
   padding: 0.5rem;
-  border-radius: 1rem;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #5d5d61;
+  color: #ffffff;
+  font-size: large;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000000;
 }
 
 ul {
