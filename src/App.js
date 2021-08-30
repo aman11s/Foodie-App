@@ -32,15 +32,19 @@ export default function App() {
 
         <hr />
 
-        <ul>
+        <div className="container">
           {foodDB[clickedCuisine].map((food) => {
             return (
-              <li key={food.dish}>
-                <div className="dish">{food.dish}</div>
-              </li>
+              <div className="dish">
+                <div>
+                  <img src={`./images/${food.img}`} className="img"></img>
+                </div>
+                <h3>Name: {" " + food.dish}</h3>
+                <p>Ratings: {food.ratings}</p>
+              </div>
             );
           })}
-        </ul>
+        </div>
       </main>
 
       <footer>

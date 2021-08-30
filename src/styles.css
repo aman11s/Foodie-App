@@ -22,6 +22,12 @@ ul li {
   list-style: none;
 }
 
+.img {
+  width: 200px;
+  height: 150px;
+  padding: 0.5em;
+}
+
 .dish {
   margin: 1rem;
   border: 2px solid black;
