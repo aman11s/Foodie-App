@@ -40,6 +40,7 @@ export default function App() {
                   <img src={`./images/${food.img}`} className="img"></img>
                 </div>
                 <h3>Name: {" " + food.dish}</h3>
+                <p>{food.description}</p>
                 <p>Ratings: {food.ratings}</p>
               </div>
             );

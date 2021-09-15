@@ -7,6 +7,14 @@ body {
   background-color: azure;
 }
 
+.container {
+  width: 350px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 .btn {
   margin: 1rem;
   padding: 0.5rem;
